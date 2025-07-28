@@ -8,5 +8,4 @@ accountEmail ="shubh@2002"
 accountPssword = "987654"
 acountCity = "bengaluru"
 
-console.table([acountId,acountEmail,acountPassword,acountCity])
-
+console.table([acountId,acountEmail,acountPassword,acountCity,acountState])
