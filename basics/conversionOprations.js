@@ -97,4 +97,4 @@ let b = a-- //b=a execute first then a-- will be executed  3 5 3
 let c = --a // --a will execute first then c=a will be executed 
 console.log(a,b,c); //a= 6 b=5 c=5
 
-
+//its called typecasting
