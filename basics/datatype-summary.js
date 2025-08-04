@@ -68,7 +68,10 @@ console.log(userOne.email);
 console.log(userTwo.email);
 
 
+// let std = ["Shubhangi", "Mohini", "Utkrsha","Vaishnavi"]
+// let std1 = std
+// std1[3]="harsh"
+// console.log(std);
 
-
-
-
+// null primitive datatype hoke uska type object hai kuki ye javascript ka ek bug hai jo 1995 se chla aa rha hai
+//null एक primitive datatype है, लेकिन typeof null 'object' return करता है क्योंकि JavaScript के शुरुआती implementation में एक design flaw था। इस bug को backward compatibility की वजह से अब तक retain किया गया है।"
