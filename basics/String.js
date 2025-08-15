@@ -24,13 +24,13 @@ const trimname = myname.trim() // in trim function other two sub function that a
 //use of trim remove the whitespace from string both side.
 console.log(trimname);
 
-const flower ="rose give to shubhangi"
+const flower ="give rose to shubhangi"
 
 console.log (flower.replace("rose", "juhi"));
 
 console.log(flower.includes("harsh")); // this function use to check string is present or not and go ve the boolean value in the output like true or false
 
-console.log(flower.split(" ")); // use for split the string basis on any word space or - also.
+console.log(flower.split()); // use for split the string basis on any word space or - also.
 
 
 

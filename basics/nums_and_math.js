@@ -20,7 +20,7 @@
 // console.log(Math.round(4.8)); // use for given no`s round value like 2.8=3, 8.9=9
 
 // console.log(Math.ceil(5.3));// take nearest higher value 
-// console.log(Math.floor(5.3));// take nearest lower value 
+// console.log(Math.floor(5.3));// dot ke bad vali value nhi leta
 // console.log(Math.min(3,6,8,9,5)); // use to find minimum value
 // console.log(Math.max(3,6,8,9,5));//use to find maximum value
 
