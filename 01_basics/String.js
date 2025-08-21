@@ -9,7 +9,7 @@ const myname = new String("  shubhangi  ")
 // console.log(myname[3]);
 // console.log(myname.__proto__);
 // console.log(myname.toUpperCase());
-// console.log(myname.length);
+// console.log(myname.length); // attribute // attribute me data store hota hai
 // console.log(myname.charAt(2));
 // console.log(myname.indexOf("h",2));
 

@@ -1,3 +1,11 @@
+// function ek block of code hai specific task perform krta hai
+// function types
+// parameter with return value
+// parameter with no return value
+// no prameter with return value
+// no parameter with no return value 
+
+
 let a = 300
 
 if(true){

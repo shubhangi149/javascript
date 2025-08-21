@@ -1,3 +1,5 @@
+// variable ek container hai jisme data store kiya jata hai
+// naming convention 
 const acountId = 12586
 let acountEmail = "shubhs@gmail.com"
 var acountPassword = "32iou9786"

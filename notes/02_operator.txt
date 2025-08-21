@@ -1,0 +1,27 @@
+three types of operator
+on the basis of no of operand
+**1. unary
+(in unary operator there is only one operand)
+types of operator
+1. increment 
+2. decrement
+3. pre-increment 
+3. post-increment 
+4. pre-decrement
+4. post-decrement
+
+
+ **2. binary
+(in binary operator their are two operator )
+type of binary operator
+1. arithmetic operator
+2. bitwise
+3. comparison
+4. relational
+5. assignment operator
+
+
+**3. ternary
+(in ternary operator their are three operator)
+type of operator
+1. ( condition? true:false) // it is called ternary operator

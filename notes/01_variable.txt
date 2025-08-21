@@ -1,0 +1,21 @@
+variable is container  for store data.
+data type is types of data stored in variable.
+there are two types of datatype.
+1.primitive (String, Number, boolean, null, Undefined, Symbol, BigInt.)
+2.non-primitive (array,object,function)
+
+****Naming convention rules****
+1. variable ka nam number se start nhi hota.
+2. variable ka nam alphanumerical hona chahiye.
+3. special symbol me sirf undescore use kr skte hai.
+
+**type of naming convention
+1. pascal.
+=> first letter of each word always capital in pascal, and it is use for class name.
+ex.(AwardGoesToHeros)
+2. camel case.
+=> first word is start with small letters rest every first word is capital,and it is use for function and variable
+ex.(emailIdPass)
+3. snake case.
+=> every letter is snake case is in small letters and each word is separated with underscores.
+ex.(shubhu_raundal_is_good)

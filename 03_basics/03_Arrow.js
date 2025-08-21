@@ -16,6 +16,7 @@ const user = {
 // "this" sirf object ke andr kam krta hai function me nhi
 
 // Arraow function syntax
+
 //()=>{}
 
 
@@ -31,7 +32,7 @@ const user = {
 // const addTwo = (num1, num2) => (num1 + num2)
 
 // how to return object in arrow function
-const addTwo = () => ({name:"shubhu"});
+const addTwo = () => ({name:"shubhu"}); // object return kiya nhai lekin arrow function me object ko parenthesis me wrap krna pdta hai nhi to undefined value aayegi
     
 console.log(addTwo());
 
