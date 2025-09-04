@@ -1,4 +1,5 @@
 variable is container  for store data.
+we can not define 2 variable with same name.
 data type is types of data stored in variable.
 there are two types of datatype.
 1.primitive (String, Number, boolean, null, Undefined, Symbol, BigInt.)

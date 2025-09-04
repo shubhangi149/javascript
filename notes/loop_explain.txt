@@ -1,0 +1,240 @@
+for (let i = 0; i <= 10; i++) {
+   console.log(`outer loop ${i}`);
+   for (i = 0; i <= 10; i++) {
+       console.log(`inner loop ${i} and outer loop ${i}`);
+   }   
+}
+
+I = 0	0<= 10 => TRUE -- FIRST ITERATION OUTER LOOP
+	OUTER LOOP 0
+	INNNER LOOP
+	I = 0	0 <= 10 => TRUE	 *** FIRST ITERATION INNER LOOP
+		INNNER LOOP 0 AND OUTER LOOP 0	
+	I++ => I = 1 
+	1 <= 10 => TRUE	 ***  SECOND ITERATION INNER LOOP
+		INNER LOOP 1 AND OUTER LOOP 1
+	i++  => i = 2
+	2 <= 10 => true *** third iteration inner loop 
+		INNER LOOP 2 AND OUTER LOOP 2
+	i++  => i = 3
+	3 <= 10 => true *** fourth iteration inner loop 
+		INNER LOOP 3 AND OUTER LOOP 3
+	i++  => i = 4
+	4 <= 10 => true *** fifth iteration inner loop 
+		INNER LOOP 4 AND OUTER LOOP 4
+	i++  => i = 5
+	5 <= 10 => true *** sixth iteration inner loop 
+		INNER LOOP 5 AND OUTER LOOP 5
+	i++  => i = 6
+	6 <= 10 => true *** seventh iteration inner loop 
+		INNER LOOP 6 AND OUTER LOOP 6
+	i++  => i = 7
+	7 <= 10 => true *** eighth iteration inner loop 
+		INNER LOOP 7 AND OUTER LOOP 7
+	i++  => i = 8
+	8 <= 10 => true *** nineth iteration inner loop 
+		INNER LOOP 8 AND OUTER LOOP 8
+	i++  => i = 9
+	9 <= 10 => true *** tenth iteration inner loop 
+		INNER LOOP 9 AND OUTER LOOP 9
+	i++  => i = 10
+	10 <= 10 => true *** eleventh iteration inner loop 
+		INNER LOOP 10 AND OUTER LOOP 10
+	i++ => i = 11
+	11 <= 10 => false  *** control will come out of inner loop
+		
+		
+for (let i = 0; i <= 4; i++) {
+   console.log(`outer loop ${i}`);
+   for (let j = 0; j <= 4; j++) {
+       console.log(`inner loop ${j} and outer loop ${i}`);
+   }   
+}
+
+i = 0 	0 <= 4  =>true  *** first iteration outer loop
+	outer loop 0
+	j = 0 	0 <= 4 => true *** first iteration inner loop 
+		inner loop 0 and outer loop 0
+	j++ => j = 1 
+	1 <= 4 =>true *** second iteration inner loop
+	    inner loop 1 and outer loop 0
+	j++ => j = 2
+	2 <= 4 => true  *** third iteration inner loop
+	    inner loop 2 and outer loop 0
+	j++ => j = 3
+	3 <= 4 => true ** fourth iteration inner loop 
+	     inner loop 3 and outer loop 0
+	j++ => j = 4
+	4 <= 4 => true *** fifth iteration inner loop
+		 inner loop 4 and outer loop 0
+	j++ => j = 5
+	5 <= 4 => false *** control will come out of inner loop 
+	
+i++ => i =1
+1 <= 4 => true *** second iteration outer loop
+	outer loop 1
+	j = 0 	0 <= 4 => true *** first iteration inner loop 
+		inner loop 0 and outer loop 1
+	j++ => j = 1 
+	1 <= 4 =>true *** second iteration inner loop
+	    inner loop 1 and outer loop 1
+	j++ => j = 2
+	2 <= 4 => true  *** third iteration inner loop
+	    inner loop 2 and outer loop 1
+	j++ => j = 3
+	3 <= 4 => true ** fourth iteration inner loop 
+	     inner loop 3 and outer loop 1
+	j++ => j = 4
+	4 <= 4 => true *** fifth iteration inner loop
+		 inner loop 4 and outer loop 1
+	j++ => j = 5
+	5 <= 4 => false *** control will come out of inner loop 	
+	
+i++ => i =2
+2 <= 4 => true *** third iteration outer loop
+	outer loop 2
+	j = 0 	0 <= 4 => true *** first iteration inner loop 
+		inner loop 0 and outer loop 2
+	j++ => j = 1 
+	1 <= 4 =>true *** second iteration inner loop
+	    inner loop 1 and outer loop 2
+	j++ => j = 2
+	2 <= 4 => true  *** third iteration inner loop
+	    inner loop 2 and outer loop 2
+	j++ => j = 3
+	3 <= 4 => true ** fourth iteration inner loop 
+	     inner loop 3 and outer loop 2
+	j++ => j = 4
+	4 <= 4 => true *** fifth iteration inner loop
+		 inner loop 4 and outer loop 2
+	j++ => j = 5
+	5 <= 4 => false *** control will come out of inner loop 
+	
+i++ => i =3
+3 <= 4 => true *** fourth iteration outer loop
+	outer loop 3
+	j = 0 	0 <= 4 => true *** first iteration inner loop 
+		inner loop 0 and outer loop 3
+	j++ => j = 1 
+	1 <= 4 =>true *** second iteration inner loop
+	    inner loop 1 and outer loop 3
+	j++ => j = 2
+	2 <= 4 => true  *** third iteration inner loop
+	    inner loop 2 and outer loop 3
+	j++ => j = 3
+	3 <= 4 => true ** fourth iteration inner loop 
+	     inner loop 3 and outer loop 3
+	j++ => j = 4
+	4 <= 4 => true *** fifth iteration inner loop
+		 inner loop 4 and outer loop 3
+	j++ => j = 5
+	5 <= 4 => false *** control will come out of inner loop 
+	
+i++ => i =4
+4 <= 4 => true *** fifth iteration outer loop
+	outer loop 4
+	j = 0 	0 <= 4 => true *** first iteration inner loop 
+		inner loop 0 and outer loop 4
+	j++ => j = 1 
+	1 <= 4 =>true *** second iteration inner loop
+	    inner loop 1 and outer loop 4
+	j++ => j = 2
+	2 <= 4 => true  *** third iteration inner loop
+	    inner loop 2 and outer loop 4
+	j++ => j = 3
+	3 <= 4 => true ** fourth iteration inner loop 
+	     inner loop 3 and outer loop 4
+	j++ => j = 4
+	4 <= 4 => true *** fifth iteration inner loop
+		 inner loop 4 and outer loop 4
+	j++ => j = 5
+	5 <= 4 => false *** control will come out of inner loop 
+	
+i++ => i =5
+5 <= 4 => false *** control will come out of outer loop
+	
+	
+for (let i = 0; i < 2; i++) {
+   console.log(`outer loop ${i}`);
+      for (let j = 0; j < 2; j++) {
+       	console.log(`inner loop ${j} and outer loop ${i}`);
+	   		 for (let k = 0; k < 2; k++)
+		 		console.log(`nested loop ${k} inner loop ${j} and outer loop ${i}`);
+   }   
+}
+
+i = 0 
+0 < 2 => true *** first iteretion outer loop
+outer loop 0
+
+	j = 0
+	0 < 2 => true  *** first iteration inner loop
+	inner loop 0 and outer loop 0
+
+		k = 0
+		0 < 2 => true *** first iteration nested loop
+		nested loop 0 inner loop 0 and outer loop 0
+
+		k++ => k = 1
+		1 < 2 => true *** second iteration nested loop
+		nested loop 1 inner loop 0 and outer loop 0
+
+		k++ => k = 2
+		2 < 2 => false *** control will come out of nested loop
+		
+	j++ => j = 1
+	1 < 2 => true *** second iteration inner loop
+	inner loop 1 and outer loop 0
+	 	k = 0
+		0 < 2 => true *** first iteration nested loop
+		nested loop 0 inner loop 1 and outer loop 0
+
+		k++ => k = 1
+		1 < 2 => true *** second iteration nested loop
+		nested loop 1 inner loop 1 and outer loop 0
+
+		k++ => k = 2
+		2 < 2 => false *** control will come out of nested loop
+		
+	j++ => j = 2
+	2 < 2 => false *** control will come out of inner loop
+
+i++ => i = 1
+1 < 2 => true *** second iteration outer loop
+outer loop 1
+
+	j = 0
+	0 < 2 => true  *** first iteration inner loop
+	inner loop 0 and outer loop 1
+
+		k = 0
+		0 < 2 => true *** first iteration nested loop
+		nested loop 0 inner loop 0 and outer loop 1
+
+		k++ => k = 1
+		1 < 2 => true *** second iteration nested loop
+		nested loop 1 inner loop 0 and outer loop 1
+
+		k++ => k = 2
+		2 < 2 => false *** control will come out of nested loop
+		
+	j++ => j = 1
+	1 < 2 => true *** second iteration inner loop
+	inner loop 1 and outer loop 1
+	 	k = 0
+		0 < 2 => true *** first iteration nested loop
+		nested loop 0 inner loop 1 and outer loop 1
+
+		k++ => k = 1
+		1 < 2 => true *** second iteration nested loop
+		nested loop 1 inner loop 1 and outer loop 1
+
+		k++ => k = 2
+		2 < 2 => false *** control will come out of nested loop
+		
+	j++ => j = 2
+	2 < 2 => false *** control will come out of inner loop
+
+i++ => i = 2
+2 < 2 => false *** control will come out of outer loop
+
